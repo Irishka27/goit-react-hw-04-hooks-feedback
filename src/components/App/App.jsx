@@ -14,13 +14,13 @@ function App () {
     switch (e.target.name) {
       case 'good':
         return setGood(prevState => prevState + 1);
-        break;
+        
       case 'neutral':
         return setNeutral(prevState => prevState + 1);
-        break;
+       
       case 'bad':
         return setBad(prevState => prevState + 1);
-        break;
+       
       default:
         break;
 
