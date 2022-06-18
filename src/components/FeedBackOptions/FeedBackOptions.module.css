@@ -1,0 +1,15 @@
+  .list {
+    list-style: none;
+    display: flex;
+  }
+  .button {
+    cursor: pointer;
+    border: none;
+    border-radius: 10%;
+    margin-right: 20px;
+    width: 70px;
+    padding: 10px;
+  }
+  .button:hover {
+    background-color: rgb(219, 211, 211);
+  }
